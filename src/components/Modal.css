@@ -1,0 +1,36 @@
+.modal-overlay {
+  position: fixed;
+  margin-right: 5%;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.table-area {
+  z-index: -1;
+}
+.data-cell {
+  margin-left: 10px;
+  width: 75px;
+  padding: 2px;
+}
+@media screen and (max-width: 520px) {
+  .table-area {
+    overflow-x: auto;
+  }
+  .modal-overlay {
+    position: fixed;
+    margin-right: 0%;
+  }
+  .modal-content {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .data-cell {
+    margin-left: 1px;
+    width: 100%px;
+    padding: 2px;
+  }
+}
